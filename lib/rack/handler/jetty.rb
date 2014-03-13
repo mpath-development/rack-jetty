@@ -40,6 +40,7 @@ module Rack
       end
       
       def stop()
+        puts "Stopping"
         @jetty && @jetty.stop
       end
     end
